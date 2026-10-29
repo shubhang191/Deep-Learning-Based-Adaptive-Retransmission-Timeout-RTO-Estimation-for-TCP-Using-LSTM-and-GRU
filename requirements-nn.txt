@@ -1,0 +1,4 @@
+-r requirements.txt
+# Optional: needed only for LSTM and GRU training. Supported Python versions
+# and installation packages vary with OS. See TensorFlow's installation guide.
+tensorflow>=2.18,<3

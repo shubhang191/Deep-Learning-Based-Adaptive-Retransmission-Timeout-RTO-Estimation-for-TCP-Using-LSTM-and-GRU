@@ -1,0 +1,61 @@
+session,method,K,rmse_ms,mae_ms,spurious_pct,wasted_ms,mean_rto_ms
+fast_hotspot,GRU,1,21.388,10.644,21.778,15.345,63.048
+fast_hotspot,GRU,2,21.388,10.644,9.667,23.533,73.58
+fast_hotspot,GRU,3,21.388,10.644,5.667,32.891,84.113
+fast_hotspot,GRU,4,21.388,10.644,2.556,42.27,94.645
+fast_hotspot,GRU,6,21.388,10.644,1.111,62.541,115.71
+fast_hotspot,GRU,8,21.388,10.644,1.111,83.663,136.775
+fast_hotspot,Jacobson (RFC 6298),1,21.786,11.666,20.556,17.957,65.492
+fast_hotspot,Jacobson (RFC 6298),2,21.786,11.666,8.889,26.682,76.884
+fast_hotspot,Jacobson (RFC 6298),3,21.786,11.666,3.889,36.347,88.276
+fast_hotspot,Jacobson (RFC 6298),4,21.786,11.666,1.667,46.779,99.668
+fast_hotspot,Jacobson (RFC 6298),6,21.786,11.666,1.111,69.329,122.453
+fast_hotspot,Jacobson (RFC 6298),8,21.786,11.666,1.111,92.179,145.237
+fast_hotspot,Jacobson SRTT + error margin,1,21.786,11.666,20.556,18.015,65.554
+fast_hotspot,Jacobson SRTT + error margin,2,21.786,11.666,8.889,26.811,77.007
+fast_hotspot,Jacobson SRTT + error margin,3,21.786,11.666,3.889,36.538,88.46
+fast_hotspot,Jacobson SRTT + error margin,4,21.786,11.666,1.667,47.029,99.914
+fast_hotspot,Jacobson SRTT + error margin,6,21.786,11.666,1.111,69.701,122.82
+fast_hotspot,Jacobson SRTT + error margin,8,21.786,11.666,1.111,92.675,145.727
+fast_hotspot,LSTM,1,21.409,10.828,20.222,15.902,63.861
+fast_hotspot,LSTM,2,21.409,10.828,9.111,24.329,74.544
+fast_hotspot,LSTM,3,21.409,10.828,4.222,33.46,85.227
+fast_hotspot,LSTM,4,21.409,10.828,2.556,43.475,95.909
+fast_hotspot,LSTM,6,21.409,10.828,1.111,64.102,117.274
+fast_hotspot,LSTM,8,21.409,10.828,1.111,85.524,138.64
+fast_hotspot,Linear AR(20),1,22.15,11.136,21.667,16.676,64.269
+fast_hotspot,Linear AR(20),2,22.15,11.136,8.889,25.037,75.198
+fast_hotspot,Linear AR(20),3,22.15,11.136,4.444,34.545,86.126
+fast_hotspot,Linear AR(20),4,22.15,11.136,2.778,44.813,97.055
+fast_hotspot,Linear AR(20),6,22.15,11.136,1.111,65.756,118.913
+fast_hotspot,Linear AR(20),8,22.15,11.136,1.111,87.671,140.771
+hotspot,GRU,1,41.332,17.552,15.667,25.183,67.625
+hotspot,GRU,2,41.332,17.552,7.889,40.369,85.371
+hotspot,GRU,3,41.332,17.552,4.444,56.673,103.116
+hotspot,GRU,4,41.332,17.552,3.111,73.807,120.862
+hotspot,GRU,6,41.332,17.552,2.111,108.738,156.353
+hotspot,GRU,8,41.332,17.552,1.111,143.202,191.844
+hotspot,Jacobson (RFC 6298),1,42.461,20.314,17.222,33.91,74.627
+hotspot,Jacobson (RFC 6298),2,42.461,20.314,7.778,51.033,95.284
+hotspot,Jacobson (RFC 6298),3,42.461,20.314,5.0,70.455,115.941
+hotspot,Jacobson (RFC 6298),4,42.461,20.314,3.333,90.183,136.599
+hotspot,Jacobson (RFC 6298),6,42.461,20.314,1.667,130.165,177.914
+hotspot,Jacobson (RFC 6298),8,42.461,20.314,1.111,170.943,219.229
+hotspot,Jacobson SRTT + error margin,1,42.461,20.314,17.222,33.673,74.429
+hotspot,Jacobson SRTT + error margin,2,42.461,20.314,7.778,50.606,94.889
+hotspot,Jacobson SRTT + error margin,3,42.461,20.314,5.0,69.832,115.349
+hotspot,Jacobson SRTT + error margin,4,42.461,20.314,3.333,89.366,135.809
+hotspot,Jacobson SRTT + error margin,6,42.461,20.314,1.667,128.96,176.729
+hotspot,Jacobson SRTT + error margin,8,42.461,20.314,1.111,169.346,217.65
+hotspot,LSTM,1,41.217,17.732,14.0,25.76,68.705
+hotspot,LSTM,2,41.217,17.732,7.111,41.251,86.611
+hotspot,LSTM,3,41.217,17.732,4.111,57.871,104.517
+hotspot,LSTM,4,41.217,17.732,2.778,75.102,122.422
+hotspot,LSTM,6,41.217,17.732,1.889,110.352,158.234
+hotspot,LSTM,8,41.217,17.732,1.111,145.405,194.045
+hotspot,Linear AR(20),1,42.951,20.323,15.556,31.694,73.7
+hotspot,Linear AR(20),2,42.951,20.323,6.667,48.981,94.154
+hotspot,Linear AR(20),3,42.951,20.323,3.889,68.142,114.609
+hotspot,Linear AR(20),4,42.951,20.323,2.778,87.939,135.063
+hotspot,Linear AR(20),6,42.951,20.323,1.667,128.011,175.972
+hotspot,Linear AR(20),8,42.951,20.323,1.111,168.3,216.881

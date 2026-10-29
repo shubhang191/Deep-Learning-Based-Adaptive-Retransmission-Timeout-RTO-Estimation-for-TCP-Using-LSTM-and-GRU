@@ -1,0 +1,11 @@
+session,method,rmse_ms,mae_ms,spurious_pct,wasted_ms,mean_rto_ms,rmse_ms_std,mae_ms_std,spurious_pct_std,wasted_ms_std,mean_rto_ms_std
+fast_hotspot,GRU,21.388,10.644,2.556,42.27,94.645,0.182,0.087,0.304,0.774,0.892
+fast_hotspot,Jacobson (RFC 6298),21.786,11.666,1.667,46.779,99.668,0.0,0.0,0.0,0.0,0.0
+fast_hotspot,Jacobson SRTT + error margin,21.786,11.666,1.667,47.029,99.914,0.0,0.0,0.0,0.0,0.0
+fast_hotspot,LSTM,21.409,10.828,2.556,43.475,95.909,0.117,0.098,0.304,0.809,0.951
+fast_hotspot,Linear AR(20),22.15,11.136,2.778,44.813,97.055,0.0,0.0,0.0,0.0,0.0
+hotspot,GRU,41.332,17.552,3.111,73.807,120.862,0.204,0.352,0.497,2.534,2.912
+hotspot,Jacobson (RFC 6298),42.461,20.314,3.333,90.183,136.599,0.0,0.0,0.0,0.0,0.0
+hotspot,Jacobson SRTT + error margin,42.461,20.314,3.333,89.366,135.809,0.0,0.0,0.0,0.0,0.0
+hotspot,LSTM,41.217,17.732,2.778,75.102,122.422,0.045,0.191,0.0,1.273,1.281
+hotspot,Linear AR(20),42.951,20.323,2.778,87.939,135.063,0.0,0.0,0.0,0.0,0.0
